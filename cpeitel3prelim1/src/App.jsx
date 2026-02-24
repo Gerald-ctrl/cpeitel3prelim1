@@ -1,11 +1,9 @@
-import './App.css'
-
-export default function App() {
+function App() {
   return (
-    <div className="container">
-      <h1>Juan Dela Cruz</h1>
+    <div className="wrapper">
+      <h1>Fritze Gerald A. Obsequio    BSIT-3B</h1>
 
-      <div className="grid">
+      <div className="grid-container">
         <div className="box box1">1</div>
         <div className="box box2">2</div>
         <div className="box box3">3</div>
@@ -16,5 +14,7 @@ export default function App() {
         <div className="box box8">8</div>
       </div>
     </div>
-  )
+  );
 }
+
+export default App;
